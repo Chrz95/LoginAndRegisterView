@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "128805846731",
+    "project_id": "mine-chrz95",
+    "storage_bucket": "mine-chrz95.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:128805846731:android:4b3758395de87fc913654e",
+        "android_client_info": {
+          "package_name": "com.example.learningdart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "128805846731-v9j00oft9c3c1mn99o8746js4koqlkts.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDb2mVyxvW720Vf96sDgzwSW1bh0LcUmKM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "128805846731-v9j00oft9c3c1mn99o8746js4koqlkts.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
