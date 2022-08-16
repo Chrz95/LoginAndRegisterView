@@ -10,14 +10,15 @@ import 'dart:developer' as devtools show log;
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   runApp(MaterialApp(
-    title: 'Flutter Demo',
+    title: 'LoginAndRegisterView',
     theme: ThemeData(
       primarySwatch: Colors.blue,
     ),
     home: const HomePage(),
     routes: {
-      '/login': ((context) => const LoginView()),
-      '/register': ((context) => const RegisterView())
+      '/login/': ((context) => const LoginView()),
+      '/register/': ((context) => const RegisterView()),
+      '/notes/': ((context) => const NotesView())
     },
   ));
 }
@@ -78,7 +79,7 @@ class _NotesViewState extends State<NotesView> {
                   if (shouldLogout) {
                     await FirebaseAuth.instance.signOut();
                     Navigator.of(context)
-                        .pushNamedAndRemoveUntil('/login', (_) => false);
+                        .pushNamedAndRemoveUntil('/login/', (_) => false);
                   } else {}
                   break;
               }
